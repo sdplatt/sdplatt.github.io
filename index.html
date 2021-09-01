@@ -43,7 +43,17 @@
       margin-left: auto;
       margin-right: auto;
 
-    }                                                                                                                                     
+    } 
+
+    .red {
+    color: #B03060;
+    }                                                                                                                                    
+    .yellow {
+    color: #FFD700;
+    }
+    .green {
+    color: #016936;
+    }                 
 
     p {
       line-height: 2;
@@ -303,6 +313,7 @@ $('.message .close')
             var hours = today.getHours();
             var minutes = today.getMinutes();
             var seconds = today.getSeconds();
+            var statusIconEmpty = '<i class="battery empty red"></i>'
             //Set the AM or PM time
             if (hours >= 12){
               meridiem = " PM";
@@ -330,7 +341,12 @@ $('.message .close')
             else {
               seconds = seconds;
             }
-            document.getElementById("clock").innerHTML = (hours + ":" + minutes + ":" + seconds + meridiem);
+            if (0 < hours < 8 && meridiem ==" AM") {
+                document.getElementById("clock").innerHTML = (hours + ":" + minutes + ":" + seconds + meridiem + statusIconEmpty);
+            } else {
+                document.getElementById("clock").innerHTML = (hours + ":" + minutes + ":" + seconds + meridiem);
+            }
+            
             }
             setInterval('clock()', 1000);
 </script>
