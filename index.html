@@ -170,7 +170,7 @@ $('.message .close')
 
             <div class="item">
                 <div class="header">Procedural Law <i class="balance scale icon"> </i></div>
-                <a href="https://sdplatt.github.io/Anklageschrift_de_engb.pdf" class="item">Anklageschrift, compared to DeepL </a>
+                <a href="https://sdplatt.github.io/Anklageschrift_de_engb.pdf" class="item">Anklageschrift vs. DeepL </a>
                 <i class="de flag"></i>> <i class="gb flag"></i>
             </div>
 
@@ -178,6 +178,18 @@ $('.message .close')
                 <div class="header">Employment Law <i class="balance scale icon"> </i></div>
                 <a href="https://sdplatt.github.io/arbeitsvertrag_deen.pdf" class="item">Arbeitsvertrag </a>
                 <i class="de flag"></i>> <i class="gb flag"></i>
+            </div>
+
+            <div class="item">   
+              <div class="header">GDPR <i class="certificate icon"> </i></div>
+              <a href="https://sdplatt.github.io/gdprde_en.png" class="item">Datenschutzerklärung </a>
+              <i class="de flag"></i>> <i class="gb flag"></i>
+            </div>
+
+            <div class="item">   
+              <div class="header">Mechanical Engineering <i class="industry icon"> </i></div>
+              <a href="https://sdplatt.github.io/technical_de_en.png" class="item">Maschinenbau.tmx </a>
+              <i class="de flag"></i>> <i class="gb flag"></i>
             </div>
 
             <div class="item">   
@@ -297,7 +309,7 @@ $('.message .close')
       <img src="whatsapp.jpg" alt="whatsApp" class="center" />
 
       <div id="clock"> </div>
-      <div id="status"> </div>
+
   </div>
 
 
@@ -344,9 +356,6 @@ $('.message .close')
             }
             else {
               seconds = seconds;
-            }
-            if (0 < hours < 8 && meridiem ==" AM") {
-                document.getElementById("status").innerHTML = (statusIconEmpty);
             }
             document.getElementById("clock").innerHTML = (hours + ":" + minutes + ":" + seconds + meridiem);
             }
