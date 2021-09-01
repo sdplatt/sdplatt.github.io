@@ -10,63 +10,60 @@
 
 
  <style>
-   :root {
-  --mainBrown: #2d1e1f;
-  --mainYellow: #ff9e09;
-  --mainGrey: #ece8dc;
-  --mainWhite: #fff;
-  --mainDark: #000;
-}
-  body {
-   font-family:'Times New Roman';
-   font-size:large;
-   background: burlywood;
-   /* background-image: url('img/globe.jpg'); */
-   margin: 25px 50px 75px;
- }
+      :root {
+      --mainBrown: #2d1e1f;
+      --mainYellow: #ff9e09;
+      --mainGrey: #ece8dc;
+      --mainWhite: #fff;
+      --mainDark: #000;
+    }
+      body {
+      font-family:'Times New Roman';
+      font-size:large;
+      background: burlywood;
+      /* background-image: url('img/globe.jpg'); */
+      margin: 25px 50px 75px;
+    }
 
-footer {
-  position: absolute;
-  font-size:small-caps;
-  font-family: Arial, Helvetica, sans-serif;
-  color: var( --mainBrown);
-  bottom: 5px;
-  width: 100%;
-  height: 2.5rem;            /* Footer height */
-}
+    footer {
+      position: absolute;
+      font-size:small-caps;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var( --mainBrown);
+      bottom: 5px;
+      width: 100%;
+      height: 2.5rem;            /* Footer height */
+    }
 
-h1 {
-  color: black;
-}                                                                                                                                                                                                                                                                                  
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    h1 {
+      color: black;
+    }                                                                                                                                                                                                                                                                                  
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
 
-}                                                                                                                                     
+    }                                                                                                                                     
 
-p {
-  line-height: 2;
-}
-.blog-text {
-  color:blueviolet;
-  line-height: 0.5;
-}
-.field {
-     font-family:'Times New Roman';
-   font-size:large;
-}
-  h1 {
-    font-size: 5rem;
-  }
-  h3 {
-    text-transform: none;
-    margin-top: 1.5rem;
-    margin-bottom: 1.75rem;
-  }
-
-  
-
+    p {
+      line-height: 2;
+    }
+    .blog-text {
+      color:blueviolet;
+      line-height: 0.5;
+    }
+    .field {
+        font-family:'Times New Roman';
+      font-size:large;
+    }
+      h1 {
+        font-size: 5rem;
+      }
+      h3 {
+        text-transform: none;
+        margin-top: 1.5rem;
+        margin-bottom: 1.75rem;
+      }
  </style>
 
 <script type="text/javascript">
@@ -85,8 +82,8 @@ $('.message .close')
 </head>
 
 <body>
-  <div><!-- cv -->
-      <h1 class="ui header">Mission | Mission | Misiunea | Миссия</h1>
+  <div><!-- mission -->
+      <h1 class="ui header">Mission | Mission | Misiune | Миссия</h1>
       <p></p>
 
         <div class="ui relaxed divided list">
@@ -95,7 +92,7 @@ $('.message .close')
               <i class="info icon"></i>
                   <div class="content">
                     <a class="header">User Experience</a>
-                  <div class="description">To provide as seamless, efficient and rapid end-to-end experience.</div>
+                  <div class="description">To provide a seamless end-to-end experience for the client.</div>
                   </div>
             </div>
             
@@ -103,7 +100,7 @@ $('.message .close')
               <i class="info icon"></i>
                   <div class="content">
                     <a class="header">Colloquial/Highly-Technical</a>
-                  <div class="description">To specialise in highly-technical/colloquial translations which cannot be reproduced with machine translation.</div>
+                  <div class="description">To specialise in highly-technical/colloquial translations which cannot be matched by machine translation.</div>
                   </div>
             </div>
             
@@ -129,7 +126,7 @@ $('.message .close')
   </div>
 <div class="ui divider"></div>
   <div><!-- profile -->
-      <h1 class="ui header">Profiles | Profile | profil | Профили </h1>
+      <h1 class="ui header">Profiles | Profile | Profil | Профили </h1>
       <p></p>
       <a href="https://www.proz.com/translator/27905" id="aproz">Proz.com</a>
   </div>
@@ -276,6 +273,8 @@ $('.message .close')
           <i class="whatsapp icon"></i>
       </h2>
       <img src="whatsapp.jpg" alt="whatsApp" class="center" />
+
+      <p>My current Date/Time: <span id="datetime"></span></p>
   </div>
 
 
@@ -283,9 +282,14 @@ $('.message .close')
         <h1 class="ui header">Projects | Projecte | Proiecte | Проекты </h1>
         <p></p>
 
-  Will add links to current language related software projects here..  
-
+  New projects will be added here in due course  |
+  Neue Projekte werden hier zu nächst hinzugefügt |
+  Noi proiecte vor fi adăugate aici în timp util |
+  Со временем сюда будут добавляться новые проекты
   </body>
-
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleString();
+</script>
 
 </html>
