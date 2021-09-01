@@ -64,6 +64,15 @@
         margin-top: 1.5rem;
         margin-bottom: 1.75rem;
       }
+
+    #clock {
+       text-align: center;
+       margin-top: 10%;
+      font-size: 90px;
+      font-family: Baskerville, Georgia;
+}
+
+
  </style>
 
 <script type="text/javascript">
@@ -274,7 +283,7 @@ $('.message .close')
       </h2>
       <img src="whatsapp.jpg" alt="whatsApp" class="center" />
 
-      <p>My current Date/Time: <span id="datetime"></span></p>
+      <div id="clock"> </div>
   </div>
 
 
@@ -288,8 +297,42 @@ $('.message .close')
   Со временем сюда будут добавляться новые проекты
   </body>
 <script>
-var dt = new Date();
-document.getElementById("datetime").innerHTML = dt.toLocaleString();
+            function clock(){
+            //Save the times in variables
+            var today = new Date();
+            var hours = today.getHours();
+            var minutes = today.getMinutes();
+            var seconds = today.getSeconds();
+            //Set the AM or PM time
+            if (hours >= 12){
+              meridiem = " PM";
+            }
+            else {
+              meridiem = " AM";
+            }
+            //convert hours to 12 hour format and put 0 in front
+            if (hours>12){
+              hours = hours - 12;
+            }
+            else if (hours===0){
+              hours = 12;	
+            }
+            //Put 0 in front of single digit minutes and seconds
+            if (minutes<10){
+              minutes = "0" + minutes;
+            }
+            else {
+              minutes = minutes;
+            }
+            if (seconds<10){
+              seconds = "0" + seconds;
+            }
+            else {
+              seconds = seconds;
+            }
+            document.getElementById("clock").innerHTML = (hours + ":" + minutes + ":" + seconds + meridiem);
+            }
+            setInterval('clock()', 1000);
 </script>
 
 </html>
