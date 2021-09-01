@@ -80,8 +80,11 @@
        margin-top: 10%;
       font-size: 90px;
       font-family: Baskerville, Georgia;
-}
-
+    }
+    #status {
+       text-align: center;
+       margin-top: 5%;
+    }
 
  </style>
 
@@ -294,6 +297,7 @@ $('.message .close')
       <img src="whatsapp.jpg" alt="whatsApp" class="center" />
 
       <div id="clock"> </div>
+      <div id="status"> </div>
   </div>
 
 
@@ -313,7 +317,7 @@ $('.message .close')
             var hours = today.getHours();
             var minutes = today.getMinutes();
             var seconds = today.getSeconds();
-            var statusIconEmpty = '<i class="battery empty red"></i>'
+            var statusIconEmpty = '<i class="battery empty red"> </i>'
             //Set the AM or PM time
             if (hours >= 12){
               meridiem = " PM";
@@ -342,11 +346,9 @@ $('.message .close')
               seconds = seconds;
             }
             if (0 < hours < 8 && meridiem ==" AM") {
-                document.getElementById("clock").innerHTML = (hours + ":" + minutes + ":" + seconds + meridiem + statusIconEmpty);
-            } else {
-                document.getElementById("clock").innerHTML = (hours + ":" + minutes + ":" + seconds + meridiem);
+                document.getElementById("status").innerHTML = (statusIconEmpty);
             }
-            
+            document.getElementById("clock").innerHTML = (hours + ":" + minutes + ":" + seconds + meridiem);
             }
             setInterval('clock()', 1000);
 </script>
