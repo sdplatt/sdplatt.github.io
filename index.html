@@ -77,8 +77,8 @@
       }
 
     #clock {
-       text-align: center;
-       margin-top: 10%;
+      text-align: center;
+      margin-top: 10%;
       font-size: 90px;
       font-family: Baskerville, Georgia;
     }
@@ -281,7 +281,7 @@ $('.message .close')
                   <i class="file excel outline icon"></i>
                 </div>
                 <div class="column"> <!-- col ro -->
-                  urmeaza....
+                  Urmeaza....
                   <i class="question circle icon"></i>
                 </div>
                   <div class="column"> <!-- col ru -->
@@ -315,20 +315,17 @@ $('.message .close')
             </div>
 
         </div>
-
-  </div>
-
-  <div><!-- whatsapp-->
-      <h2 class="ui center aligned icon header">
-          <i class="whatsapp icon"></i>
-      </h2>
-      <img src="whatsapp.jpg" alt="whatsApp" class="center" />
-
       <div id="clock"> </div>
+      <h2 class="ui center aligned icon header">
+          <i id ="wa" class="whatsapp icon"></i>
+      </h2>
 
+      <img src="whatsapp.jpg" alt="whatsApp" class="center" />
   </div>
+ 
 
 
+<p></p>
 <div class="ui divider"></div>
         <h1 class="ui header">Projects | Projecte | Proiecte | Проекты </h1>
         <p></p>
@@ -345,7 +342,7 @@ $('.message .close')
             var hours = today.getHours();
             var minutes = today.getMinutes();
             var seconds = today.getSeconds();
-            var statusIconEmpty = '<i class="battery empty red"> </i>'
+       
             //Set the AM or PM time
             if (hours >= 12){
               meridiem = " PM";
@@ -374,6 +371,14 @@ $('.message .close')
               seconds = seconds;
             }
             document.getElementById("clock").innerHTML = (hours + ":" + minutes + ":" + seconds + meridiem);
+            if ( (meridiem==" PM" && hours > 8) || (meridiem==" AM" && hours < 8)  ){
+                  var element = document.getElementById("wa");
+                  element.classList.add("red");
+                } else {
+                  var element = document.getElementById("wa");
+                  element.classList.add("green");
+                }
+
             }
             setInterval('clock()', 1000);
 </script>
