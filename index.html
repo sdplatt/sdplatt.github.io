@@ -120,9 +120,12 @@ $('.message .close')
 </head>
 
 <body>
-  <div><!-- mission -->
-      <h1 class="ui header">Mission | Mission | Misiune | Миссия</h1>
-      <p></p>
+  <div><!-- mission and vision -->
+      <h1 class="ui header">Vision & Mission | Mission | Misiune | Миссия</h1>
+      <p>
+      Vision: What will the industry look like in 2025, 2030?
+
+      </p>
 
         <div class="ui relaxed divided list">
           
@@ -268,7 +271,7 @@ $('.message .close')
   </div>
 <div class="ui divider"></div>
    <div><!-- terms -->
-      <h1 class="ui header">Termbases | Terminologie | terme | Словари</h1>
+      <h1 class="ui header">Termbases | Terminologie | Terminologie | Словари</h1>
 
           <div class="ui stackable four column grid">
             
@@ -306,8 +309,8 @@ $('.message .close')
             Sind Sie bereit, Ihr nächstes Projekt in Angriff zu nehmen? Scannen Sie den untenstehenden Code und teilen Sie mir mit, in welche Sprache wir Ihre Dokumente übersetzen sollen, und ich mache mich sofort an die Arbeit!
             </div>
             <div class="column"> <!-- col ro -->
-            Citat și comandă instantanee
-            Sunteți gata să începeți următorul proiect? Scanați codul de mai jos, anunțându-ne în ce limbă ar trebui să vă traduc documentele în și din și din și mă voi apuca imediat de treabă!
+            Ofertă și comandă pe loc!
+            Sunteți gata să începeți următorul proiect? Scanați codul de mai jos, anunțându-mă în si din ce limbă ar trebui să vă traduc documentele și mă voi apuca imediat de proiect!
             </div>
             <div class="column"> <!-- col ru -->
             Мгновенное предложение и заказ
@@ -332,7 +335,7 @@ $('.message .close')
 
   New projects will be added here in due course  |
   Neue Projekte werden hier zu nächst hinzugefügt |
-  Noi proiecte vor fi adăugate aici în timp util |
+  Proiectele noi vor fi adăugate aici în timp util |
   Со временем сюда будут добавляться новые проекты
   </body>
 <script>
@@ -371,7 +374,7 @@ $('.message .close')
               seconds = seconds;
             }
             document.getElementById("clock").innerHTML = (hours + ":" + minutes + ":" + seconds + meridiem);
-            if ( (meridiem==" PM" && hours > 8) || (meridiem==" AM" && hours < 8)  ){
+            if ( (meridiem==" PM" && 11 <= hours > 8 ) || (meridiem==" AM" && hours < 8)  ){
                   var element = document.getElementById("wa");
                   element.classList.add("red");
                 } else {
