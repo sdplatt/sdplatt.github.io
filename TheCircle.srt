@@ -1,0 +1,263 @@
+﻿1
+00:00:00,877 --> 00:00:04,426
+Mr Thoma, you are
+Sales Engineer for Voice Alarm Systems
+
+2
+00:00:04,427 --> 00:00:05,827
+at Siemens for Switzerland.
+
+3
+00:00:05,890 --> 00:00:09,444
+What would a layman make of your job title?
+
+4
+00:00:09,446 --> 00:00:12,558
+Security in a public building
+is a big aspect.
+
+5
+00:00:12,946 --> 00:00:15,430
+In a restaurant
+like the one here in Leon's Loft
+
+6
+00:00:15,431 --> 00:00:17,435
+We have a voice alert.
+
+7
+00:00:17,485 --> 00:00:20,458
+People are given guidance by loudspeakers,
+
+8
+00:00:20,460 --> 00:00:25,060
+and in the event of an incident
+they can simply leave the building.
+
+9
+00:00:25,694 --> 00:00:31,050
+What kind of events can occur to enable an
+evacuation?
+
+10
+00:00:31,212 --> 00:00:34,018
+The following events can occur,
+
+11
+00:00:34,019 --> 00:00:40,131
+such as a bomb alarm, fire alarm, 
+building alarm, or environmental alarm.
+
+12
+00:00:40,133 --> 00:00:41,935
+There are a lot of possibilities.
+
+13
+00:00:41,937 --> 00:00:46,337
+What needs to be taken into account when
+evacuating buildings in general?
+
+14
+00:00:46,339 --> 00:00:49,457
+The important thing is to reach out and
+reassure people,
+
+15
+00:00:49,709 --> 00:00:53,481
+so that people will follow the instructions
+given by the speakers.
+
+16
+00:00:53,862 --> 00:00:57,140
+This way no major complications can
+arise.
+
+17
+00:00:57,527 --> 00:01:00,423
+What is the role of voice evacuation
+
+18
+00:01:00,424 --> 00:01:01,851
+during evacuations ?
+
+19
+00:01:01,853 --> 00:01:06,954
+Voice evacuation, as opposed to
+other siren systems,
+
+20
+00:01:07,040 --> 00:01:08,348
+is there to guide people.
+
+21
+00:01:08,589 --> 00:01:12,587
+In the event of an incident, they can now
+rescue themselves relatively quickly
+
+22
+00:01:12,919 --> 00:01:15,010
+without causing any major damage.
+
+23
+00:01:15,431 --> 00:01:17,627
+Which products from your range
+
+24
+00:01:17,629 --> 00:01:20,917
+have you installed here in
+Leon's Loft restaurant?
+
+25
+00:01:20,919 --> 00:01:24,614
+Here in Leons Loft we have installed our
+Nivogo amplifiers,
+
+26
+00:01:24,615 --> 00:01:27,081
+two 250 watt amplifiers.
+
+27
+00:01:27,083 --> 00:01:31,229
+In addition, we have installed large
+speakers and regulators,
+
+28
+00:01:31,231 --> 00:01:33,407
+i.e. volume controls.
+
+29
+00:01:33,890 --> 00:01:35,741
+This was very important to the customer
+
+30
+00:01:35,742 --> 00:01:38,676
+as he demanded increased quality.
+
+31
+00:01:38,925 --> 00:01:41,789
+What products have you
+installed in The Circle?
+
+32
+00:01:42,723 --> 00:01:46,014
+We installed the Novigo system
+in The Circle.
+
+33
+00:01:46,016 --> 00:01:50,126
+We have installed Siemens speakers
+for the basic set-up
+
+34
+00:01:50,188 --> 00:01:55,939
+and for the tenant set-up we have
+installed combined branded speakers.
+
+35
+00:01:56,766 --> 00:02:00,257
+What are the functions of the brand
+loudspeakers?
+
+36
+00:02:00,258 --> 00:02:03,167
+The branded speakers perform two
+functions -
+
+37
+00:02:03,350 --> 00:02:06,806
+better intelligibility and
+voice quality
+
+38
+00:02:06,807 --> 00:02:09,074
+and also background music.
+
+39
+00:02:09,299 --> 00:02:13,763
+What was special about this 'The
+Circle' project for you personally?
+
+40
+00:02:14,556 --> 00:02:16,156
+The size of the project.
+
+41
+00:02:16,357 --> 00:02:20,900
+We have interconnected around 80 Novigo
+central units here,
+
+42
+00:02:21,248 --> 00:02:27,518
+that is, we can stream streaming services
+and radio stations or radio programmes
+
+43
+00:02:27,519 --> 00:02:29,848
+in the network
+
+44
+00:02:29,989 --> 00:02:32,456
+and each tenant has the opportunity
+
+45
+00:02:32,841 --> 00:02:35,308
+to choose their own programme here.
+
+46
+00:02:35,473 --> 00:02:40,344
+What advantages do your products offer
+over those of your competitors?
+
+47
+00:02:40,556 --> 00:02:43,698
+Our products, such as the control panels 
+and the controls
+
+48
+00:02:43,700 --> 00:02:47,300
+are easily networkable with
+normal internet cables.
+
+49
+00:02:48,015 --> 00:02:51,692
+What challenges did you have to overcome
+here in The Circle
+
+50
+00:02:51,694 --> 00:02:53,770
+and how did you solve them, Mr. Thoma?
+
+51
+00:02:53,772 --> 00:02:57,365
+Yes, the size was a big challenge,
+of course,
+
+52
+00:02:57,366 --> 00:03:00,738
+as was the delivery of the products.
+
+53
+00:03:00,739 --> 00:03:04,257
+We could only have our products delivered
+
+54
+00:03:04,258 --> 00:03:06,568
+here at a certain time slot.
+
+55
+00:03:07,156 --> 00:03:12,594
+In addition, there were constant changes 
+to the floor plan or rents.
+
+56
+00:03:12,913 --> 00:03:15,510
+It wasn't all that simple.
+
+57
+00:03:15,558 --> 00:03:18,763
+But we are very proud of our employees
+
+58
+00:03:19,174 --> 00:03:21,883
+who have done a fantastic job here.
+
